@@ -105,4 +105,16 @@ section {
 
     display: grid;
     place-items: center;
+    box-sizing: content-box;.demo1 {
+    background: lightpink;
+    width: 300px;
+    height: 50px;
+    padding: 50px;
+    padding-top: 100px;
+    margin: 20px auto;
+    border: 10px solid black;
+    display: grid;
+    place-items: center;
+}
+
 }
