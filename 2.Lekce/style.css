@@ -1,25 +1,91 @@
+/* Obecné nastavení */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* 1) Pevný box 400x400 px */
+.example-1 {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* 2) Parent box */
+.parent {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Child 50% */
+.child {
+    width: 50%;
+    height: 50%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Box uvnitř boxu */
+.example3 {
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+
+/* RÁMEČKY */
+
+/* Základní border */
+.panel {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Různé styly */
+.mix {
+    border-top: 4px solid red;
+    border-right: 4px dashed blue;
+    border-bottom: 4px dotted green;
+    border-left: 4px double purple;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Zkrácený zápis */
 .card {
-background-color: black;
-color: azure;
-border-radius: 10px;
-padding: 20px;
-margin: 20px;
+    border: 3px solid orange;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
-.info {
-color: azure;
+/* Margin a padding */
+.box {
+    width: 150px;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightyellow;
+    border: 2px solid black;
 }
 
-.warning {
-color: crimson;
-font-weight: bold;
-}
-
-#warning {
-color: crimson;
-font-weight: bold;
-}
-
-p:last-child {
-color: rgb(77, 34, 3);
+/* Box model demonstrace */
+.demo {
+    width: 200px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 30px;
+    background-color: lightpink;
 }
