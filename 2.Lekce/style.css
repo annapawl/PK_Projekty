@@ -1,25 +1,25 @@
 .card {
-    background-color: rgb(243, 113, 113);
-    color: azure;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
+background-color: black;
+color: azure;
+border-radius: 10px;
+padding: 20px;
+margin: 20px;
 }
 
 .info {
-    color: azure;
+color: azure;
 }
 
 .warning {
-    color: crimson;
-    font-weight: bold;
+color: crimson;
+font-weight: bold;
 }
 
 #warning {
-    color: crimson;
-    font-weight: bold;
+color: crimson;
+font-weight: bold;
 }
 
 p:last-child {
-    color: rgb(77, 34, 3);
+color: rgb(77, 34, 3);
 }
