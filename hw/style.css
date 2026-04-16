@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: #f0f0f0;
+    background: #ffd4f6;
 }
 
 .menu {
@@ -16,10 +16,10 @@ button {
 }
 
 .card {
-    background: white;
+    background: rgb(255, 252, 252);
     padding: 20px;
     margin: 20px auto;
     width: 60%;
     border-radius: 10px;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px rgb(188, 188, 189);
 }
