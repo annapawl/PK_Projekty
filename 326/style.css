@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.login-form {
+    padding: 20px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.login-form input {
+    display: block;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 240px;
+    height: 42px;
+    padding: 8px 12px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.login-form input[type="submit"] {
+    width: 240px;
+    height: 42px;
+    padding: 8px 12px;
+    border: 2px solid rgb(90, 120, 90);
+    background-color: #f884f8;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
