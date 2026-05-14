@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    background-color: rgb(223, 185, 216);
+    text-align: center;
+}
+
+.menu a {
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(150, 66, 145);
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    display: none;
+    background-color: white;
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+/* zobrazí se jen kliknuté */
+.box:target {
+    display: block;
+}
