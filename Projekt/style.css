@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #aa427f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #f0d2e9;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(12, 4, 4);
+}
+
+section {
+    padding: 20px;
+    color: #0f0f0f;
+}
+
+.projekt {
+    background-color: rgb(98, 142, 179);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
